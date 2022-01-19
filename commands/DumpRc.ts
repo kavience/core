@@ -10,7 +10,7 @@
 import { BaseCommand } from '@adonisjs/ace'
 
 /**
- * A command to display a list of routes
+ * A command to display the complete file contents of adonisrc configuration
  */
 export default class DumpRcFile extends BaseCommand {
   public static commandName = 'dump:rcfile'
